@@ -8,12 +8,12 @@ Project video:
 
 ## The Model
 
-[image1]: ./model.png
-[image2]: ./constraints.png
-[image3]: ./metrics.png
-[image4]: ./short_dt.gif
-[image5]: ./long_dt.gif
-[image6]: ./output_video.gif
+[image1]: ./images/model.png
+[image2]: ./images/constraints.png
+[image3]: ./images/metrics.png
+[image4]: ./images/short_dt.gif
+[image5]: ./images/long_dt.gif
+[image6]: ./images/output_video.gif
 
 The model of a vehicle based on global kinematic model:
 
