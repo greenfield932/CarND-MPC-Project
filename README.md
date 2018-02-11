@@ -1,10 +1,6 @@
-# CarND-Controls-MPC
+# Model Predictive Control with latency
 
-Self-Driving Car Engineer Nanodegree Program
-
-Project video:
-
-![alt text][image6]
+This projects describes model predictive control for the vehicle and allows to perform vehicle actuations (steering and throttle) to follow the predefined trajectory, taking in account actuators latency.
 
 ## The Model
 
