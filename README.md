@@ -44,15 +44,13 @@ while shorter dt results to less cross track error:
 N and dt both define the length of prediction horizon, dt parameter defines how often actuations calculated for each point of the trajectory,
 while N defines amount of such calculations and influence on size of optimization problem and solver performance as well.
 
-
 ## Polynomial Fitting and MPC Preprocessing
-To use 
-Preprocessing
 
-Transform x,y,psi coordinates from map coordinate system to car's coordinate system,
-so the first point is the origin and next points coordinates calculated from this point.
+Polynomial fitting performed on the desired trajectory. This requred to calculate cross track error and orientation error.
 
-Rotate all points on 90 degree to aligh zero heading with X axis.
+Preprocessing include transform x,y,psi values from map coordinate system to the vehicle's coordinate system, so the first point became the origin 
+and all next points coordinates recalculated from this point. 
+Next rotate all points on 90 degree to aligh zero heading with X axis. This mostly done for optimization solver and polynomial fitting (i.e. numeric optimizations)
 
 ## Model Predictive Control with Latency
 
