@@ -41,4 +41,3 @@ Eigen::VectorXd polyfit(Eigen::VectorXd xvals, Eigen::VectorXd yvals,
   auto result = Q.solve(yvals);
   return result;
 }
-
