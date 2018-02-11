@@ -35,11 +35,11 @@ N is a tmestep length, dt is elapsed duaration. These parameters define predicti
 Combination of these parameters should define a reasonable future trajectory. I finished with N=10 and dt=0.1. 
 Larger dt results to smooth turns, which is reasonable on higher speeds:
 
-![alt text][image4]
+![alt text][image5]
 
 while shorter dt results to less cross track error:
 
-![alt text][image5]
+![alt text][image4]
 
 N and dt both define the length of prediction horizon, dt parameter defines how often actuations calculated for each point of the trajectory,
 while N defines amount of such calculations and influence on size of optimization problem and solver performance as well.
